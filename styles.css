@@ -1,14 +1,14 @@
 body {
   margin: 0;
   font-family: 'Lora', serif;
-  background-color: #f8f7f3;
-  color: #442f1f;
+  background-color: #fff8f0;
+  color: #5a2a00;
 }
 header {
-  background-color: #fff;
+  background-color: #fff0e6;
   padding: 20px;
   text-align: center;
-  border-bottom: 2px solid #e5e5e5;
+  border-bottom: 2px solid #d4a373;
 }
 .logo {
   height: 60px;
@@ -16,15 +16,15 @@ header {
 }
 header h1 {
   margin: 10px 0;
-  color: #a52a2a;
+  color: #a0522d;
 }
 nav a {
   margin: 0 15px;
-  color: #a52a2a;
+  color: #8b4513;
   text-decoration: none;
   font-weight: bold;
 }
-nav a:hover {
+nav a:hover, nav a.active {
   text-decoration: underline;
 }
 .hero {
@@ -34,15 +34,15 @@ nav a:hover {
 .hero img {
   width: 100%;
   height: auto;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 .hero-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff;
-  background-color: rgba(0,0,0,0.4);
+  color: #fff8f0;
+  background-color: rgba(90, 42, 0, 0.6);
   padding: 20px;
   border-radius: 10px;
 }
@@ -51,7 +51,7 @@ nav a:hover {
   text-align: center;
 }
 .schedule h3 {
-  color: #a52a2a;
+  color: #a0522d;
 }
 .schedule ul {
   list-style: none;
@@ -61,7 +61,7 @@ nav a:hover {
 footer {
   text-align: center;
   padding: 15px;
-  background-color: #e8e3dc;
+  background-color: #f4e2d8;
   margin-top: 40px;
   font-size: 14px;
 }
@@ -69,4 +69,14 @@ footer {
   padding: 40px;
   max-width: 800px;
   margin: auto;
+}
+.map-container {
+  padding: 40px;
+  text-align: center;
+}
+.map-container iframe {
+  border: 2px solid #a0522d;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 800px;
 }
